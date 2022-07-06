@@ -1,0 +1,568 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Kyanda - WordPress Theme Documentation</title>
+    <meta name="description" content="">
+    <meta name="author" content="modinatheme">
+    <meta name="copyright" content="modinatheme">
+    <link rel="shortcut icon" href="assets/images/icon.png">
+    <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+    <link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nunito:400,700,800%7COpen+Sans:400,600,600i" />
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <script>
+    document.createElement('section');
+    var duration = '500',
+        easing = 'swing';
+    </script>
+    <script src="assets/js/script.js"></script>
+    <style>
+    html {
+        background-color: #FFFFFF;
+        color: #383838;
+    }
+
+    ::-moz-selection {
+        background: #444444;
+        color: #DDDDDD;
+    }
+
+    ::selection {
+        background: #444444;
+        color: #DDDDDD;
+    }
+
+    #documenter_sidebar #documenter_logo {
+        background-image: url(assets/images/logo.png);
+    }
+
+    a {
+        color: #0000FF;
+    }
+
+    .btn {
+        border-radius: 3px;
+    }
+
+    .btn-primary {
+        background-image: -moz-linear-gradient(top, #f46698, #e71a62);
+        background-image: -ms-linear-gradient(top, #f46698, #e71a62);
+        background-image: -webkit-gradient(linear, 0 0, 0 f46698%, from(#DDDDDD), to(#e71a62));
+        background-image: -webkit-linear-gradient(top, #f46698, #e71a62);
+        background-image: -o-linear-gradient(top, #f46698, #e71a62);
+        background-image: linear-gradient(top, #f46698, #e71a62);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f46698', endColorstr='#e71a62', GradientType=0);
+        border-color: #e71a62 #e71a62 #bfbfbf;
+        color: #FFFFFF;
+    }
+
+    .btn-primary:hover,
+    .btn-primary:active,
+    .btn-primary.active,
+    .btn-primary.disabled,
+    .btn-primary[disabled] {
+        border-color: #f46698 #f46698 #bfbfbf;
+        background-color: #e71a62;
+    }
+
+    hr {
+        border-top: 1px solid #EBEBEB;
+        border-bottom: 1px solid #FFFFFF;
+    }
+
+    #documenter_sidebar,
+    #documenter_sidebar ul a {
+        background-color: #e71a62;
+        color: #222222;
+    }
+
+    #documenter_sidebar ul a {
+        color: #ffffff;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    #documenter_sidebar ul a:hover {
+        background: #444444;
+        color: #DDDDDD;
+    }
+
+    #documenter_sidebar ul a.current {
+        background: #9c053a;
+        color: #DDDDDD;
+    }
+
+    #documenter_copyright {
+        display: block !important;
+        visibility: visible !important;
+        color: #aaaaaa;
+    }
+
+    #documenter_copyright a {
+        color: #ffffff;
+    }
+    </style>
+</head>
+
+<body class="documenter-project-appex-wordpress-app-landing-theme">
+    <div id="documenter_sidebar">
+        <a href="#documenter_cover" id="documenter_logo"></a>
+        <ul id="documenter_nav">
+            <li><a class="current" href="#documenter_cover">Start</a></li>
+            <li><a href="#requirements" title="requirements">Requirements</a></li>
+            <li><a href="#getting_started" title="Getting Started">Getting Started</a></li>
+            <li><a href="#demoimport" title="demoimport">Demo Import</a></li>
+            <li><a href="#theme_option" title="Theme Option">Theme Options</a></li>
+            <li><a href="#custom_post" title="custom_post">Custom Post - Event</a></li>
+            <li><a href="#elementor" title="elementor">Elementor Widgets</a></li>
+            <li><a href="#pageoption" title="pageoption">Page Settings</a></li>
+            <li><a href="#changelog" title="ChangeLog">Change Log</a></li>
+            <li><a href="#source_credits" title="Source & Credits">Source & Credits</a></li>
+            <li><a href="#thank_you" title="Thank You">Thank You</a></li>
+        </ul>
+        <div id="documenter_copyright">Copyright <a href="https://kyanda.co.ke" target="_blank">Kyanda Developers</a> 2022
+        </div>
+    </div>
+    <div id="documenter_content">
+        <section id="documenter_cover">
+            <h1 style="margin: 0px;line-height: 1;">Kyanda</h1>
+            <h3 style="margin: 0px;">Charity & Foundries WordPress Theme</h3>
+            <div id="documenter_buttons">
+            </div>
+            <hr>
+            <ul>
+                <li>Latest Version: 1.3.1</li>
+                <li>Latest Update: 26/01/2022</li>
+                <li>By: <a href="https://themeforest.net/user/modinatheme"> ModinaTheme</a></li>
+                <li>Demo:<a href="https://codexpeed.com/Kyanda-wp/"> https://codexpeed.com/Kyanda-wp/</a></li>
+                <li>Email: <a href="mailto:modinatheme@gmail.com"> modinatheme@gmail.com</a></li>
+            </ul>
+            <p></p>
+        </section>
+        <section id="requirements">
+            <div class="page-header">
+                <h3>Requirements</h3>
+                <hr class="notop">
+            </div>
+            <p>You need at least WordPress version 5.0+ installed for this theme to work properly. It is strongly recommended that you always use the latest stable version of Wordpress to ensure all known bugs and security issues are fixed. Other requirements:
+                <ul>
+                    <li>PHP version 5.6+ or greater. But for maximum speed, we recommend to use PHP version 7+.</li>
+                    <li>MySQL version 5.0.15 or greater.</li>
+                </ul>
+            </p>
+        </section>
+        <section id="getting_started">
+            <div class="page-header">
+                <h3>Getting Started</h3>
+                <hr class="notop">
+            </div>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 20px; font-family: &quot;Open Sans&quot;, sans-serif; vertical-align: baseline; color: rgb(51, 51, 51);">WordPress Theme Installation</span></p>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-size: 13px; font-family: inherit; vertical-align: baseline;"><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; box-sizing: border-box;">WordPress theme is simply a group of files</span></span><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; font-family: inherit; vertical-align: baseline;">, called template, bundled together that, when activated in CMS, determine the look and basic function of your site. By using professional modinatheme theme, you can have your site up and running with a new design - pretty fast. Theme installation is very easy process. Especially when you&#39;ve chosen the theme you want to use, you&#39;ll need to install it into your WordPress website. You&#39;ll have the following two choices, as you did when adding new plugins:</span></p>
+            <ul style="margin: 0px 0px 10px; padding-right: 0px; padding-left: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56); box-sizing: border-box;">
+                <li style="margin: 0px 0px 10px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; font-family: inherit; vertical-align: baseline; list-style: square; box-sizing: border-box;">
+                    You can add the theme directly from within the WP Admin, using &quot;Upload Theme&quot; option. From Admin Panel go the following path&nbsp;<span class="highliter" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 600; font-style: inherit; font-size: 12.5px; font-family: inherit; vertical-align: baseline; box-sizing: border-box; color: rgb(66, 139, 202);">Appearance -&gt; Themes -&gt; Add New -&gt; Upload Theme</span>&nbsp;and select the zip theme, then click Install Now.</li>
+                <li style="margin: 0px 0px 10px 36px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; font-family: inherit; vertical-align: baseline; list-style: square; box-sizing: border-box;">
+                    If your server is not set up properly or you have any problems, you&#39;ll have to extract and then upload the theme by hand. Using your favorite FTP client tool upload theme folder into the folder path&nbsp;<span class="highliter" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 600; font-style: inherit; font-size: 12.5px; font-family: inherit; vertical-align: baseline; box-sizing: border-box; color: rgb(66, 139, 202);">/wp-content/themes/&nbsp;</span>on your server and active it from admin panel.</li>
+            </ul>
+            <p style="margin: 0px 0px 10px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; font-family: inherit; vertical-align: baseline; line-height: 26px; color: rgb(56, 56, 56); box-sizing: border-box;">
+                <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline; box-sizing: border-box;">Note:</span>&nbsp;On your WordPress site, the&nbsp;<span class="highliter" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 600; font-style: inherit; font-size: 12.5px; font-family: inherit; vertical-align: baseline; box-sizing: border-box; color: rgb(66, 139, 202);">wp-content/themes</span>&nbsp;folder holds all your themes. Each theme you install gets its own subfolder. All of a theme&#39;s style sheets and template files reside inside the theme&#39;s folder.</p>
+            <h1 class="t-heading -color-inherit -size-l h-m0 is-hidden-phone" itemprop="name" style="margin-bottom: 16px; padding: 0px; border: 0px; outline: 0px; font-size: 28px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; box-sizing: border-box; color: rgb(69, 69, 69); line-height: 1.2; -webkit-font-smoothing: antialiased; background-color: rgb(250, 250, 250); margin-top: 0px !important; margin-right: 0px !important; margin-left: 0px !important;">
+                <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: inherit; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56); line-height: 1.1; background-color: rgb(255, 255, 255);">Kyanda Theme Installation Process :</span></h1>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 20px; font-family: inherit; vertical-align: baseline;">Follow These Steps in Order to Install a New WP Theme</span></p>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 18px;">First Step:</span></p>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                &nbsp;</p>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 18px;"><img alt="" src="assets/images/theme_install1.png"></span></p>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                <span style="color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px; font-style: inherit; font-weight: inherit;">Second Step:</span></p>
+            <div>
+                <img alt="" src="assets/images/theme_install_02.png"></div>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                &nbsp;</p>
+            <h3 style="margin: 18px 0px 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 100; font-size: 26px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; color: rgb(56, 56, 56);">
+                <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 20px; font-family: &quot;Open Sans&quot;, sans-serif; vertical-align: baseline; color: rgb(51, 51, 51); line-height: 1.1;">Essential Plugins and Installation:</span></h3>
+            <div>
+                <br />
+                <img alt="" src="assets/images/plugin.png"></div>
+            <p>After successful theme installation, you'll see the above notice box that you need to install essential plugins. You can click on <b>"Begin installing plugins"</b> or follow the following step.</p>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                <span style="color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 20px; font-style: inherit; font-weight: inherit;">Install above essential plugins by easy 2 step</span></p>
+            <strong>Figure 1: Required plugins installation window</strong>
+            <img src="assets/images/required-plugin.png">
+            <p>
+                The installing process status will be shown in your browser. It may takes a few minutes, so please be patient.</p>
+            <p>
+                After completing the activation and no bug occurred, you will see status of all plugins is activated.
+            </p>
+        </section>
+        <section id="demoimport">
+            <div class="page-header">
+                <h3>Demo Content Import</h3>
+                <hr class="notop">
+            </div>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                <div style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: &quot;Open Sans&quot;, sans-serif; vertical-align: baseline; color: rgb(51, 51, 51); line-height: 20px; box-sizing: border-box;">
+                    <p style="margin: 0px 0px 10px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; font-family: inherit; vertical-align: baseline; line-height: 26px; box-sizing: border-box; text-align: justify;">
+                        <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline; box-sizing: border-box;">Import Sample Data:&nbsp;</span>Import Sample Data: If you want to use demo data for your website then you need to install sample data. From menu choose&nbsp;<span class="highliter" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 600; font-style: inherit; font-size: 12.5px; font-family: inherit; vertical-align: baseline; box-sizing: border-box; color: rgb(66, 139, 202);">Tools -&gt; Import -&gt; WordPress</span>. Click WordPress then you will see the &quot;Import WordPress&quot; option which allows you to upload .xml file from&nbsp;<span class="highliter" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 600; font-style: inherit; font-size: 12.5px; font-family: inherit; vertical-align: baseline; box-sizing: border-box; color: rgb(66, 139, 202);">Kyanda/inc/demo</span>&nbsp;Content folder. If this tool not be installed you have to install &quot;WordPress Importer&quot; plugin manually.</p>
+                    <h3 style="margin: 10px 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 100; font-style: inherit; font-size: 24px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 40px; text-rendering: optimizeLegibility;">
+                        Loading Demo Content</h3>
+                    <p style="margin: 0px 0px 10px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 20px; color: rgb(56, 56, 56);">
+                        If you want to upload demo content (posts,pages,menu...) to your website, browse Demo Sample Data folder and find the xml file. After that use WordPress import tool to upload this xml file to your website.</p>
+                    <p style="margin: 0px 0px 10px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 20px; color: rgb(56, 56, 56);">
+                        For more information about importing content in WordPress;&nbsp;<a href="https://codex.wordpress.org/Importing_Content#WordPress" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration-line: none; cursor: pointer;">click here</a></p>
+                    <p style="margin: 0px 0px 10px; padding: 0px; border: 0px; outline: 0px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 20px; color: rgb(56, 56, 56);">
+                        <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Note:</span>&nbsp;If you aren&#39;t using a fresh WordPress install, I recommend you to reset your database before loading demo content. You can do this easily with&nbsp;<a href="https://wordpress.org/plugins/wordpress-database-reset/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration-line: none; cursor: pointer;">this plugin</a>. After doing this don&#39;t forget to activate the theme and required plugins again before uploading the xml file...&nbsp;</p>
+                    <p style="margin: 0px 0px 10px; padding: 0px; border: 0px; outline: 0px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 20px; color: rgb(56, 56, 56);">
+                        After the demo installation, you should set up sidebars ,select a front page and set up Appearance-&gt;Theme Settings manually. Please read the following sections for more information.</p>
+                    <p style="margin: 0px 0px 10px; padding: 0px; border: 0px; outline: 0px; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 20px; color: rgb(56, 56, 56);">
+                        <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(51, 51, 51);">Upload WordPress installer:</span></p>
+                    <img alt="" src="assets/images/wpimport.png">
+                </div>
+                <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                    <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-size: 14px; font-family: inherit; vertical-align: baseline;">Select demo xml file and click &quot;update file and import&quot;</span></p>
+                <img alt="" src="assets/images/upimport.png">
+                <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                    <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;"><span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; vertical-align: baseline; line-height: 20px;">Don&#39;t forget to check &quot;Download and import attachments&quot; box and click &quot;submit&quot;</span></span></p>
+                <img alt="" src="assets/images/content-import.png">
+            <h5><strong>Import Demo Content - Manually (Row)</strong></h5>
+            <ul>
+                <li><strong>1: Choose XML (All Contents)</strong><br>You need to choose XML file from <strong>"contents.xml"</strong> folder under <strong>"Demo Content"</strong> folder.</li>
+                <li><strong>2: Choose WIE or JSON</strong><br> You can skip this because we don't have this type of demo data file.</li>
+                <li><strong>3. Choose DAT (Customizer Settings)</strong><br> Choose DAT file.</li>
+                <li><strong>4.Elementor Page Builder</strong> <br> you need to choose JSON file from <strong>"elementor-page"</strong> folder under <strong>"Demo Content"</strong> folder.</li>
+                <li><strong>5.Redux Framework - Theme Options</strong><br> you need to choose JSON file from <strong>"settings.json"</strong> folder under <strong>"Demo Content"</strong> folder.</li>
+                <li><strong>6.ACF Pro - Plugin - Page Options</strong><br> you need to choose JSON file from <strong>"metabox.json"</strong> folder under <strong>"Demo Content"</strong> folder.</li>
+                <br>
+                <img alt="" src="assets/images/acf.png">
+            </ul>
+            <p><img src="assets/images/widget-import.jpg"></p>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 20px; font-family: &quot;Open Sans&quot;, sans-serif; vertical-align: baseline; color: rgb(51, 51, 51);">Setup Permalink(Required)</span></p>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                <span style="font-family: inherit; font-size: 13px; font-style: inherit; font-weight: inherit;">Make sure to configure permalink. By default WordPress uses web URLs which have question marks and lots of numbers in them; however, WordPress offers you the ability to create a custom URL structure for your permalinks and archives. This can improve the aesthetics, usability, and forward-compatibility of your links. From WP admin panel go to the following path Settings-&gt;Permalik then select (Post name).</span></p>
+                <p><img src="assets/images/permalink_setup.png" alt=""></p>
+            <h3 id="widgetImport" style="margin: 0px 0px 10px; padding: 20px 0px 0px; border: 0px; outline: 0px; font-weight: 400; font-size: 20px; font-family: &quot;Open Sans&quot;, sans-serif; vertical-align: baseline; color: rgb(51, 51, 51); box-sizing: border-box; line-height: 1.1;">
+                Menu Settings</h3>
+            <p style="margin: 0px 0px 10px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; font-family: inherit; vertical-align: baseline; line-height: 26px; color: rgb(56, 56, 56); box-sizing: border-box;">
+                Its an important part of Kyanda Theme Installation process. Select your menu for menu location. Go to&nbsp;<span class="highliter" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 600; font-style: inherit; font-size: 12.5px; font-family: inherit; vertical-align: baseline; box-sizing: border-box; color: rgb(66, 139, 202);">Dashboard-&gt; Appearance-&gt; Menus</span>&nbsp;then click on Manage Location and select menu for 2 locations. menu for &quot;Primary Menu&quot;? location is mandatory. You can follow below screenshot.<img alt="" src="assets/images/menu.png"></p>
+            <h3 style="margin: 0px 0px 10px; padding: 20px 0px 0px; border: 0px; outline: 0px; font-weight: 400; font-size: 20px; font-family: &quot;Open Sans&quot;, sans-serif; vertical-align: baseline; color: rgb(51, 51, 51); box-sizing: border-box; line-height: 1.1;">
+                Set Home Page (Required):</h3>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline;">Set Static Home Page(Required):</span>&nbsp;WordPress shows blog posts by default as the front page. If you want to look like demo Kyanda then you need to set Home Page. See the way how to set Static Home Page&nbsp;<span class="highliter" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 600; font-style: inherit; font-size: 12.5px; font-family: inherit; vertical-align: baseline; box-sizing: border-box; color: rgb(66, 139, 202);">Settings-&gt;Reading</span>&nbsp;. From here select static page then for Front page select <strong>Home</strong> and blog page select <strong>Blog</strong>.</p>
+            <p style="margin: 18px 0px; padding: 0px; border: 0px; outline: 0px; font-size: 14px; font-family: Arial, verdana, arial, sans-serif; vertical-align: baseline; line-height: 1.5em; color: rgb(56, 56, 56);">
+                <img alt="" src="assets/images/Reading.png"></p>
+
+                <p>
+                    <span style="color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 20px; font-style: inherit; font-weight: inherit;">One Click Demo Import:</span></p>
+                <p style="margin: 0px 0px 10px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; font-family: inherit; vertical-align: baseline; line-height: 26px; box-sizing: border-box; text-align: justify;">
+                    <span style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 700; font-style: inherit; font-family: inherit; vertical-align: baseline; box-sizing: border-box;">Import Sample Data:&nbsp;</span>Kyanda Gives you one click demo import option for get this you need to install one click demo import plugin <a href="https://wordpress.org/plugins/one-click-demo-import/" style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline; color: rgb(0, 0, 255); text-decoration-line: none; cursor: pointer;">(click here)</a> . After Install This plugin nedd to follow few steps for import demo data </p>
+                <p>
+                    <img alt="" src="assets/images/demo-preview.png"></p>
+            </p>
+            <p>After choosing demo file, click on Import Demo Data button and it will take several minutes to import.</p>
+        </section>
+        <section id="theme_option">
+            <div class="page-header">
+                <h3>Theme Option</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                <span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;">&nbsp;Kyanda used <strong>Redux Framwork</strong> Plugin &nbsp;for Theme Options. All options are easily readable and configurable.It's very easy to use.</span></p>
+            <p>
+                <span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif;"><img alt="" src="assets/images/theme_opt.png"></span></p>
+            <p>
+                &nbsp;</p>
+            <div style="clear: both; overflow: hidden;">
+                <p>
+                    <span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; white-space: nowrap;">1.</span><span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; white-space: nowrap;">Preloader Settings</span></p>
+                <p>
+                    <span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 13px; white-space: nowrap; float: left; margin-right: 50px;"><img alt="" src="assets/images/preload_opt.png"></span></p>
+                <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+            </div>
+            <p>
+                <span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; white-space: nowrap;">2.</span><span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; white-space: nowrap;">Typography</span></p>
+            <p>
+                <span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 13px; white-space: nowrap; float: left; margin-right: 50px;"><img alt="" src="assets/images/typo_opt.png"></span></p>
+            <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+            <p>
+                <span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 13px; white-space: nowrap;"></span></p>
+            <div style="clear: both; overflow: hidden;">
+                <p>
+                    <span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; white-space: nowrap;">3.</span><span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; white-space: nowrap;">Header Options</span></p>
+                <ul>
+                    <li>
+                        <p><strong>Header Option</strong></p>
+                        <p>
+                            <img alt="" src="assets/images/header_opt.png">
+                        </p>
+                        <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+                    </li>
+                    <li>
+                        <p><strong>Logo - Option</strong></p>
+                        <p><img alt="" src="assets/images/logo_opt.png"></p>
+                        <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+                    </li>
+                    <li>
+                        <p><strong>Navbar Menu - Option</strong></p>
+                        <p><img alt="" src="assets/images/navbar_opt.png"></p>
+                        <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+                    </li>
+                    <li>
+                        <p><strong>Donation Button - Option</strong></p>
+                        <p><img alt="" src="assets/images/actionbtn_opt.png"></p>
+                        <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+                        <br>
+                    </li>
+                </ul>
+            </div>
+            <div style="clear: both; overflow: hidden;">
+                <p>
+                    <span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; white-space: nowrap;">4.Blog Settings - Section</span></p>
+                <ul>
+                    <li>
+                        <p><strong>Layout Style - Option</strong></p>
+                        <p><img alt="" src="assets/images/layout_opt.png"></p>
+                        <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+                    </li>
+                    <li>
+                        <p><strong>Title Bar</strong></p>
+                        <p><img alt="" src="assets/images/blog_opt_title.png"></p>
+                        <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+                    </li>
+                    <li>
+                        <p><strong>Single Blog</strong></p>
+                        <p><img alt="" src="assets/images/single_blog_opt.png"></p>
+                        <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+                    </li>
+                    <li>
+                        <p><strong>Blog Social Share</strong></p>
+                        <p><img alt="" src="assets/images/blog_social_opt.png"></p>
+                        <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+                    </li>
+                </ul>
+            </div>
+            <div style="clear: both; overflow: hidden;">
+                <p>
+                    <span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; white-space: nowrap;">Custom CSS & JS Code - Section</span></p>
+                <ul>
+                    <li>
+                        <p><strong>Add Custom CSS Code - Option</strong></p>
+                        <p><img alt="" src="assets/images/custom_css_opt.png"></p>
+                        <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+                    </li>
+                    <li>
+                        <p><strong>Add Custom JS Code - Option</strong></p>
+                        <p><img alt="" src="assets/images/custom_js_opt.png"></p>
+                        <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+                    </li>
+                </ul>
+            </div>
+            <div style="clear: both; overflow: hidden;">
+                <p>
+                    <span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; white-space: nowrap;">5.404 Settings - Section</span></p>
+                <ul>
+                    <li>
+                        <p><img alt="" src="assets/images/404_opt.png"></p>
+                        <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+                    </li>
+                </ul>
+            </div>
+            <div style="clear: both; overflow: hidden;">
+                <p>
+                    <span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; white-space: nowrap;">6.Footer Options </span></p>
+                <ul>
+                    <li>
+                        <p>Footer Settings</p>
+                        <p><img alt="" src="assets/images/footer_opt.png"></p>
+                        <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+                    </li>
+                    <li>
+                        <p>Footer Copyright Content</p>
+                        <p><img alt="" src="assets/images/footer_copyright_opt.png"></p>
+                        <p>After changing the settings, Click on <b><i>Save Changes</i></b> button.</p>
+                    </li>
+                </ul>
+            </div>
+            <div style="clear: both; overflow: hidden;">
+                <p>
+                    <span style="color: rgb(85, 93, 102); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; white-space: nowrap;">7.Import / Export Theme Option - Redux</span></p>
+                <ul>
+                    <li>
+                        <p>Export or Import your theme options data on json format</p>
+                        <p><img alt="" src="assets/images/redux_ix_opt.png"></p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="custom_post">
+            <div class="page-header">
+                <h3>Custom Post - Event</h3>
+                <hr class="notop">
+            </div>
+            <p>Kyanda Having only One Custom Post Type - Event </p>
+            <img alt="" src="assets/images/event.png"> <br>
+            <p><strong>Add New Event</strong></p>
+            <ul>
+                <li>1. Enter event title</li>
+                <li>2. Write text for event content</li>
+                <li>3. Upload event image</li>
+                <li>4. add a event category</li>
+                <li>5. and Publish it</li>
+                <li>It's Elementor Addon - Section Widgets
+                    <strong>Event</strong>
+                </li>
+            </ul>
+        </section>
+        <section id="elementor">
+            <div class="page-header">
+                <h3>Elementor Addon - 20+ Custom Wigets </h3>
+                <hr class="notop">
+            </div>
+            <p><img src="assets/images/addon.jpg" alt=""></p>
+            <br>
+            <p><strong>How to edit with Elementor Page Builder</strong></p>
+            <p><img src="assets/images/editwithelementor.png" alt=""></p>
+            <p><img src="assets/images/elementorui.jpg" alt=""></p>
+            <br>
+            <br>
+            <ul>
+                <li>
+                    <p><strong> Hero</strong></p>
+                    <img src="assets/images/addons/hero.png" alt="">
+                    <br>
+                </li>
+                <li>
+                    <p><strong>Donation - Causes Grid</strong></p>
+                    <img src="assets/images/addons/donation.png" alt="">
+                    <br>
+                </li>
+                <li>
+                    <p><strong>Blog Post Widgets</strong></p>
+                    <img src="assets/images/addons/blog.png" alt="">
+                    <br>
+                </li>
+                <li>
+                    <p><strong>Contact Form 7 Short Code</strong></p>
+                    <img src="assets/images/addons/cf7.png" alt="">
+                    <br>
+                </li>
+                
+            </ul>
+        </section>
+        <section id="mailchimp_support">
+            <div class="page-header">
+                <h3>MailChimp - Form</h3>
+                <hr class="notop">
+            </div>
+            <p>MailChimp Plugin for WordPress Theme Form Code. First Connect with your MailChimp Account with API. Check The MailChimp Form Code.txt file from Main Files Folder. </p>
+            <img alt="" src="assets/images/mailchimp-form.png"> <br>
+            Then, Paste the form short code where you want to show.
+            <img alt="" src="assets/images/mcwp-shortcode.png"> <br>
+            
+        </section>
+        <!--End Elementor-->
+        <section id="pageoption">
+            <div class="page-header">
+                <h3>Page Settings - ACF Pro</h3>
+                <hr class="notop">
+            </div>
+            <ul>
+                <li>
+                    <p><strong>Page Options - Bottom of page</strong></p>
+                    <img src="assets/images/page_opt.png" alt="">
+                    <img src="assets/images/page_menu_opt.png" alt="">
+                    <img src="assets/images/page_footer_opt.png" alt="">
+                    <br>
+                </li>
+            </ul>
+        </section>
+        <section id="logochnage">
+            <div class="page-header">
+                <h3>Logo Change ( Homepage or any page)/ Want Specific Custom Logo for any pages - Page Settings</h3>
+                <hr class="notop">
+            </div>
+            <img src="assets/images/page_header_opt.png" alt="">
+        </section>
+        <!--End Page Option-->
+        <section id="changelog">
+            <div class="page-header">
+                <h3>Changelog</h3>
+                <hr class="notop">
+            </div>
+            <pre>
+            Version 1.3.0 - 22.01.2022
+            ==========================
+            - ModinaCore Updated
+            - Causes Owl Carousel Fixed
+
+
+            Version 1.3.0 - 22.01.2022
+            ==========================
+            - WPML Translate Full Support
+            - RTL Support
+
+            Version 1.1.1 - 28.12.2021
+            ========================
+            - Fixed Preloader Issues
+            - Fixed CSS Issues
+            - Remove Blog Ads Options
+            - Added Blog Single Options
+            - Demo Updated
+
+            Version 1.1.0 - 27.12.2021
+            ========================
+            - Child Theme Added
+            - SCSS & CSS Some Issues Fixed
+            - Theme Options Update - Heading Fonts
+            - MailChimp - MC4WP Plugin Support
+            - Online Doc Updated
+            - Demo Updated
+
+            Version 1.0 - 16.12.2021
+            ========================
+            - Initial Release
+            </pre>
+        </section>
+        <section id="source_credits">
+            <div class="page-header">
+                <h3>Source & Credits</h3>
+                <hr class="notop">
+            </div>
+            <ul>
+                <li><a href="http://jquery.com/" rel="nofollow">jQuery Library</a></li>
+                <li><a href="http://getbootstrap.com/" rel="nofollow">Bootstrap</a></li>
+                <li><a href="https://fontawesome.com/icons" rel="nofollow">Font Awesome Pro</a></li>
+                <li><a href="http://dimsemenov.com/plugins/magnific-popup/" rel="nofollow">Magnific Popup</a></li>
+                <li><a href="https://owlcarousel2.github.io/OwlCarousel2/" rel="nofollow">Owl Carousel</a></li>
+                <li><a href="https://kenwheeler.github.io/slick/" rel="nofollow">slick</a></li>
+                <li><a href="https://github.com/meanthemes/meanMenu" rel="nofollow">meanMenu</a></li>
+                <li><a href="https://daneden.github.io/animate.css/" rel="nofollow">Animate.css</a></li>
+                <li><a href="https://freepik.com" rel="nofollow">freepik Images</a></li>
+            </ul>
+        </section>
+        <section id="thank_you">
+            <div class="page-header">
+                <h3>Thank You</h3>
+                <hr class="notop">
+            </div>
+            <p>
+                <span style="color: rgb(56, 56, 56); font-family: Arial, verdana, arial, sans-serif; font-size: 12px; font-weight: bold;">Once again, thank you so much for purchasing this product. As I said at the beginning, I&#39;d be glad to help you if you have any questions relating to this product. No guarantees, but I&#39;ll do my best to assist. If you have a more general question relating to this product on ThemeForest, you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</span></p>
+        </section>
+    </div>
+</body>
+
+</html>
